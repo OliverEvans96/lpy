@@ -19,12 +19,12 @@ All these projects have to be correctly installed before compiling ``L-Py``.
 
 Additionally, the ``Cython`` module that make it possible to translate python code into ``C`` code is automatically integrated to the project if detected. You can install it if you want to test this extension.
 
-Installing for Linux & Mac
-===================
+Installing using conda (Linux, Mac & Windows)
+=============================================
 
 First, you need to install conda: https://conda.io/docs/user-guide/install/index.html
 
-When it's done, create an environment for L-Py:
+When it's done, using a conda shell, create a conda environment for L-Py:
 
 .. code-block:: bash
 
@@ -42,10 +42,12 @@ And run L-Py
 
         lpy
 
-Installing binaries (Windows)
-===================
+Installing from old installers (Windows & Mac)
+==============================================
 
-You can download binaries of this project via the OpenAlea Installer after loggin on the Inria Gforge.
+You can download binaries of this project using the `OpenAlea and VPlants Installers <http://openalea.gforge.inria.fr/dokuwiki/doku.php?id=download>`_.
+
+Specific bundles have also been build for windows and Mac and can be found `here <https://gforge.inria.fr/frs/?group_id=79&release_id=4263>`_
 
 Installing from sources
 =======================
