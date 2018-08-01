@@ -68,7 +68,7 @@ The ``sproduce`` function makes it possible to produce modules generated algorit
     m = ParamModule('toto')
     sproduce (Lstring([m]))
 
-Advantage is that modules can be created on the fly. However, if you then try to math the produced module with
+Advantage is that modules can be created on the fly. However, if you then try to match the produced module with
 rules such as the following one, it may not work.::
 
     toto --> F
